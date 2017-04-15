@@ -17,9 +17,9 @@
     <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_arduino"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span></a></li>
     <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_rpi"><span class="glyphicon glyphicon-record" aria-hidden="true"></span></a></li>
     <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_feather"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></a></li>
-    <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_circplay"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span></a></li>
     <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_wearables"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span></a></li>
     <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_blinky"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span></a></li>
+    <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_circplay"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span></a></li>
     <li role="presentation"><a role="tab" data-toggle="tab" href="#tab_misc"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a></li>
   </ul>
     <!--------------------------------------------------------------------------
@@ -60,7 +60,7 @@
                               R P I
     --------------------------------------------------------------------------->
     <div role="tabpanel" id="tab_rpi" class="tab-pane">
-      <h2>RPI</h2>
+      <h2>RASPBERRY PI</h2>
       <h3>Getting Started</h3>
         <ul>
           <li><a href="https://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi">Adafruit's Raspberry Pi Lesson 1. Preparing an SD Card for your Raspberry Pi</a></li>
@@ -90,38 +90,31 @@
         <tr class="active">
           <td><b>BOARD</b></td>
           <td><b>PROC</b></td>
-          <td><b>PROTO</b></td>
-          <td><b>LOGGER</b></td>
-          <td><b>RADIO</b></td>
+          <td><b>FEATURE</b></td>
         </tr>
         <tr>
           <td>Adafruit Feather 32u4 Basic Proto<br/>
           <a href="https://www.adafruit.com/product/2771"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-basic-proto"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
+          <a href="https://learn.adafruit.com/adafruit-feather-32u4-basic-proto/faq"><span class="glyphicon glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td><span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
+          <td>PROTO</span></td>
         </tr>
         <tr>
           <td>Adafruit Feather 32u4 Adalogger<br/>
           <a href="https://www.adafruit.com/product/2795"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-adalogger"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td><span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-          <td></td>
+          <td class="success">32u4</td>
+          <td>LOGGER</td>
         </tr>
         <tr>
           <td>Adafruit Feather 32u4 Bluefruit LE<br/>
           <a href="https://www.adafruit.com/product/2829"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-bluefruit-le"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
           <td>BLE</td>
         </tr>
         <tr>
@@ -129,9 +122,7 @@
           <a href="https://www.adafruit.com/product/3078"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-radio-with-lora-radio-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
           <td>LoRa<br/>868 or 915 MHz</td>
         </tr>
         <tr>
@@ -139,9 +130,7 @@
           <a href="https://www.adafruit.com/product/3079"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-radio-with-lora-radio-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
           <td>LoRa<br/>433 MHz</td>
         </tr>
         <tr>
@@ -149,9 +138,7 @@
           <a href="https://www.adafruit.com/product/3076"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
           <td>Packet<br/>868 or 915 MHz</td>
         </tr>
         <tr>
@@ -159,9 +146,7 @@
           <a href="https://www.adafruit.com/product/3077"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
           <td>Packet<br/>433 MHz</td>
         </tr>
         <tr>
@@ -169,9 +154,7 @@
           <a href="https://www.adafruit.com/product/3027"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/adafruit-feather-32u4-fona"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="warning">32u4</td>
-          <td></td>
-          <td></td>
+          <td class="success">32u4</td>
           <td>FONA</td>
         </tr>
         <tr>
@@ -180,9 +163,7 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-basic-proto"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td><span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-          <td></td>
-          <td></td>
+          <td>PROTO</td>
         </tr>
         <tr>
           <td>Adafruit Feather M0 Adalogger<br/>
@@ -190,9 +171,7 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-adalogger"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td><span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-          <td></td>
+          <td>LOGGER</td>
         </tr>
         <tr>
           <td>Adafruit Feather M0 Bluefruit LE<br/>
@@ -200,8 +179,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-bluefruit-le"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>BLE</td>
         </tr>
         <tr>
@@ -210,8 +187,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-radio-with-lora-radio-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>LoRa<br/>868 or 915 MHz</td>
         </tr>
         <tr>
@@ -220,8 +195,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-radio-with-lora-radio-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>LoRa<br/>433 MHz</td>
         </tr>
         <tr>
@@ -230,8 +203,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-radio-with-lora-radio-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>Packet<br/>868 or 915 MHz</td>
         </tr>
         <tr>
@@ -240,8 +211,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-radio-with-lora-radio-module"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>Packet<br/>433 MHz</td>
         </tr>
         <tr>
@@ -250,8 +219,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-wifi-atwinc1500"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>802.11b, g, or n</td>
         </tr>
         <tr>
@@ -260,8 +227,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-m0-wifi-atwinc1500"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="danger">M0</td>
-          <td></td>
-          <td></td>
           <td>802.11b, g, or n</td>
         </tr>
         <tr>
@@ -270,8 +235,6 @@
           <a href="https://learn.adafruit.com/adafruit-feather-huzzah-esp8266"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="info">ESP8266</td>
-          <td></td>
-          <td></td>
           <td>802.11b, g, or n</td>
         </tr>
         <tr>
@@ -279,9 +242,7 @@
           <a href="https://www.adafruit.com/product/3406"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           <a href="https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
-          <td class="success">M4F</td>
-          <td></td>
-          <td></td>
+          <td class="warning">M4F</td>
           <td>BLE</td>
         </tr>
         <tr>
@@ -290,8 +251,6 @@
           <a href="https://learn.adafruit.com/introducing-the-adafruit-wiced-feather-wifi/"><span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
           </td>
           <td class="active">M3</td>
-          <td></td>
-          <td></td>
           <td>802.11b, g, or n</td>
         </tr>
         <!--
